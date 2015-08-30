@@ -1,0 +1,11 @@
+
+<div class="panel panel-default">
+  	<div class="panel-body">
+  		<h1>New Review for <%= @movie.title %></h1>
+		<%= render 'form' %>
+	</div>
+</div>
+
+<div class="button">
+	<%= link_to 'Back', movie_path(@movie), class:"btn btn-danger" %>
+</div>
